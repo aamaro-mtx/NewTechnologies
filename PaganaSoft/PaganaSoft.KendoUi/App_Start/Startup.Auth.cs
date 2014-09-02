@@ -58,11 +58,11 @@ namespace PaganaSoft.KendoUi
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "1075922594270-jefm2v79ncuop1ee6f1u2g5jg2tvh80p.apps.googleusercontent.com",
+                ClientSecret = "wmBU9BBHA8R-wdRCGQ_J5uel"
+            });
         }
     }
 }
